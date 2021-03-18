@@ -47,7 +47,6 @@ public class Fragment_Shop extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-
             }
         });
 

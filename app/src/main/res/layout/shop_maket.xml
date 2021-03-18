@@ -27,7 +27,7 @@
                 android:id="@+id/shop_art_1"
                 android:layout_width="wrap_content"
                 android:layout_height="352dp"
-                android:scaleType=""
+                android:scaleType="centerInside"
                 tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
             <TextView
