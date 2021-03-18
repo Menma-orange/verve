@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.verve.fragments.Fragment_Message;
 import com.example.verve.fragments.Fragment_Shop;
@@ -19,10 +20,10 @@ public class main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        final Button verve = (Button)findViewById(R.id.verve);
-        final Button shop = (Button)findViewById(R.id.shop);
-        final Button message = (Button)findViewById(R.id.message);
-        final Button other = (Button)findViewById(R.id.other);
+        final ImageView verve = (ImageView)findViewById(R.id.verve);
+        final ImageView shop = (ImageView)findViewById(R.id.shop);
+        final ImageView message = (ImageView)findViewById(R.id.message);
+        final ImageView other = (ImageView)findViewById(R.id.other);
 
         Display(0);
 
