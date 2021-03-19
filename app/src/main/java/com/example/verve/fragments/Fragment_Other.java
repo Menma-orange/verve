@@ -37,9 +37,9 @@ public class Fragment_Other extends Fragment {
         listView = v.findViewById(R.id.list_other);
         ArrayList<Constructor_Other> data = new ArrayList<>();
 
-        data.add(new Constructor_Other("Комиссия", R.drawable.icon_comission));
-        data.add(new Constructor_Other("Сохраненное", R.drawable.icon_public));
-        data.add(new Constructor_Other("Публикации", R.drawable.icon_favorite));
+        data.add(new Constructor_Other("Комиссия", R.drawable.icon_comission_c));
+        data.add(new Constructor_Other("Сохраненное", R.drawable.icon_public_c));
+        data.add(new Constructor_Other("Публикации", R.drawable.icon_favorie_c));
 
 
         Adapter_Other adapter_other = new Adapter_Other(main, R.layout.other_maket, data);

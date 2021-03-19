@@ -58,6 +58,8 @@ public class Fragment_Shop extends Fragment {
             }
         });
 
+        b1.setBackgroundResource(R.drawable.buttonon);
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
