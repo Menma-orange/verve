@@ -40,8 +40,8 @@ public class Fragment_Message extends Fragment {
         listView = v.findViewById(R.id.list_message);
 
         ArrayList<Constructor_Message> data = new ArrayList<>();
-        data.add(new Constructor_Message("Menma", "И тишина...", R.drawable.logo_verve_w));
-        data.add(new Constructor_Message("Fan", "Я тут придумал кое-что, надеюсь норм", R.drawable.logo_verve_y));
+        data.add(new Constructor_Message("Menma", "Вы: И тишина...", R.drawable.logo_verve_w));
+        data.add(new Constructor_Message("Fan", "Menma: Я тут придумал кое-что", R.drawable.logo_verve_y));
 
         Adapter_Message adapter_message = new Adapter_Message(main, R.layout.message_maket, data);
         listView.setAdapter(adapter_message);

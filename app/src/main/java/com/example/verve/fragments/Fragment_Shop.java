@@ -44,10 +44,9 @@ public class Fragment_Shop extends Fragment {
         Button b7 = (Button) v.findViewById(R.id.bt7);
 
         final ArrayList<Constructor_Shop> data = new ArrayList<>();
-        data.add(new Constructor_Shop("REKICH", "50$", "Cat", R.drawable.adopt_cat));
-        data.add(new Constructor_Shop("Menma", "0$", "Orange", R.drawable.verve_logo));
-        data.add(new Constructor_Shop("Menma", "50$", "Orange", R.drawable.verve_logo));
-        data.add(new Constructor_Shop("Menma", "50$", "Orange", R.drawable.verve_logo));
+        data.add(new Constructor_Shop("REKICH", "20$", "Cat", R.drawable.adopt_cat));
+        data.add(new Constructor_Shop("SupSun", "30$", "", R.drawable.woman));
+        data.add(new Constructor_Shop("Башня", "3$", "", R.drawable.fairy));
 
         Adapter_Shop adapter_shop = new Adapter_Shop(main, R.layout.shop_maket, data);
         list_view.setAdapter(adapter_shop);

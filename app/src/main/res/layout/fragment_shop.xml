@@ -65,7 +65,7 @@
                         android:id="@+id/bt1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Пейзаж"
+                        android:text="Адопт"
                         android:textColor="#FFFFFF"
                         android:background="@drawable/button"
                         android:textAllCaps="false" />
@@ -74,7 +74,7 @@
                         android:id="@+id/bt2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Адопт"
+                        android:text="На холсте"
                         android:textColor="#FFFFFF"
                         android:background="@drawable/button"
                         android:textAllCaps="false" />

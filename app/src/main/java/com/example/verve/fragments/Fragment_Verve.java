@@ -42,12 +42,12 @@ public class Fragment_Verve extends Fragment {
         Button b7 = (Button) v.findViewById(R.id.b7);
 
         final ArrayList<Constructor_Verve> data = new ArrayList<>();
-        data.add(new Constructor_Verve("Don!", "TestTExt", R.drawable.logo_verve_w));
-        data.add(new Constructor_Verve("MenmOrange", "Why not", R.drawable.verve_logo));
-        data.add(new Constructor_Verve("USer1917", "Red", R.drawable.logo_verve_y));
+        data.add(new Constructor_Verve("User1773", "ЧБ, рисунок, посуда", R.drawable.po_bw));
+        data.add(new Constructor_Verve("User1917", "ЧБ, референс, посуда", R.drawable.po_wb_art));
 
         Adapter_Verve adapter_verve = new Adapter_Verve(main, R.layout.verve_maket, data);
         listView.setAdapter(adapter_verve);
+        b1.setBackgroundResource(R.drawable.buttonon);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
