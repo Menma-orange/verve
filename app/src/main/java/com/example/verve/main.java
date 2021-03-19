@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.verve.fragments.Fragment_Message;
+import com.example.verve.fragments.Fragment_Other;
 import com.example.verve.fragments.Fragment_Shop;
 import com.example.verve.fragments.Fragment_Verve;
 
@@ -26,29 +27,47 @@ public class main extends AppCompatActivity {
         final ImageView other = (ImageView)findViewById(R.id.other);
 
         Display(0);
+        verve.setImageResource(R.drawable.icon_verve_on);
 
         verve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Display(0);
+                verve.setImageResource(R.drawable.icon_verve_on);
+                shop.setImageResource(R.drawable.icon_shop_off);
+                message.setImageResource(R.drawable.icon_message_off);
+                other.setImageResource(R.drawable.icon_other_off);
             }
         });
         shop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Display(1);
+                verve.setImageResource(R.drawable.icon_verve_off);
+                shop.setImageResource(R.drawable.icon_shop_on);
+                message.setImageResource(R.drawable.icon_message_off);
+                other.setImageResource(R.drawable.icon_other_off);
             }
         });
         message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Display(2);
+                verve.setImageResource(R.drawable.icon_verve_off);
+                shop.setImageResource(R.drawable.icon_shop_off);
+                message.setImageResource(R.drawable.icon_message_on);
+                other.setImageResource(R.drawable.icon_other_off);
             }
         });
         other.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Display(3);
+                verve.setImageResource(R.drawable.icon_verve_off);
+                shop.setImageResource(R.drawable.icon_shop_off);
+                message.setImageResource(R.drawable.icon_message_off);
+                other.setImageResource(R.drawable.icon_other_on);
             }
         });
     }
@@ -69,6 +88,11 @@ public class main extends AppCompatActivity {
                 FragmentTransaction FT2 = getSupportFragmentManager().beginTransaction();
                 FT2.replace(R.id.FrameTemp, new Fragment_Message(), new Fragment_Message().getClass().getName());
                 FT2.commit();
+                break;
+            case 3:
+                FragmentTransaction FT3 = getSupportFragmentManager().beginTransaction();
+                FT3.replace(R.id.FrameTemp, new Fragment_Other(), new Fragment_Other().getClass().getName());
+                FT3.commit();
                 break;
         }
     }

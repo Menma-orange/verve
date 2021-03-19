@@ -12,6 +12,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="65dp"
+            android:background="@drawable/top"
             android:gravity="center|left"
             android:orientation="horizontal">
 
@@ -21,6 +22,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:gravity="left|center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
                 android:text="Продажа"
                 android:textSize="30sp" />
 
@@ -53,56 +56,70 @@
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/button10"
+                        android:id="@+id/bt1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Пейзаж"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/button11"
+                        android:id="@+id/bt2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Адопт"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/button9"
+                        android:id="@+id/bt3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Со скидкой"
+
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button"                        android:text="Со скидкой"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/button13"
+                        android:id="@+id/bt4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Коммишен"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/button12"
+                        android:id="@+id/bt5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Заказ"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/button14"
+                        android:id="@+id/bt6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Дизайн"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button"
                         android:textAllCaps="false" />
 
                     <Button
-                        android:id="@+id/button15"
+                        android:id="@+id/bt7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Виды"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button"
                         android:textAllCaps="false" />
                 </LinearLayout>
             </HorizontalScrollView>

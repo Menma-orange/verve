@@ -27,7 +27,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="53dp"
+            android:layout_height="55dp"
             android:background="@drawable/bottom_big"
             android:orientation="horizontal">
 
@@ -35,45 +35,41 @@
                 android:id="@+id/verve"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
                 android:layout_marginRight="2dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="1"
-                android:padding="3dp"
                 android:scaleType="centerInside"
-                app:srcCompat="@drawable/icon_verve" />
+                app:srcCompat="@drawable/icon_verve_off" />
 
             <ImageView
                 android:id="@+id/shop"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="2dp"
-                android:layout_marginTop="5dp"
-                android:padding="3dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="1"
                 android:scaleType="centerInside"
-                app:srcCompat="@drawable/icon_shop" />
+                app:srcCompat="@drawable/icon_shop_off" />
 
             <ImageView
                 android:id="@+id/message"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="2dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="1"
-                android:padding="3dp"
                 android:scaleType="centerInside"
-                app:srcCompat="@drawable/icon_message" />
+                app:srcCompat="@drawable/icon_message_off" />
 
             <ImageView
                 android:id="@+id/other"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="3dp"
                 android:layout_marginLeft="2dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="1"
                 android:scaleType="centerInside"
-                app:srcCompat="@drawable/icon_other" />
+                app:srcCompat="@drawable/icon_other_off" />
         </LinearLayout>
 
     </LinearLayout>
